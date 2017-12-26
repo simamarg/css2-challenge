@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Lato', sans-serif;;
+}
+
+body {
+    background: url('https://thumb2.holidaypirates.com/R9DqqCD_aPE66RhyjWX_pjwwmfI=/1314x600/https://media.holidaypirates.com/images/2015/07/takamaka-beach-seychelles-1436829292-vta1.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.bussiness-card {
+    background-color: rgba(91, 98, 118, 0.9);
+    width: 500px;
+    height: 250px;
+    margin: 200px auto;
+}
+
+.half-card {
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.half-card h2 {
+    color: white;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.half-card p {
+    color: #a2adbf;
+    padding-bottom: 25px;
+}
+
+.phone-div {
+    border-top: 1.5px dashed #a2adbf;
+    width: 100%;
+}
+
+.review-top {
+    width: 100%;
+    height: 130px;
+    background-color: #ebeef3;
+}
+
+.review-bottom {
+    width: 100%;
+    height: 130px;
+    background-color: #3fa8e0;
+}
+
+img {
+    display: block;
+    width: 10%;
+}
