@@ -10,9 +10,8 @@
 
 .form-top {
     background-color: #C40019;
-    width: 33%;
-    min-width: 250px;
-    height: 52vh;
+    width: 380px;
+    height: 370px;
     margin: 20px auto 0 auto;
     border-radius: 10px 10px 0 0;
 }
@@ -29,12 +28,12 @@
     width: 85%;
     margin: 0 auto;
     border-radius: 5px 5px;
-    height: 7vh;
-    margin-bottom: 1.5vh;
+    height: 50px;
+    margin-bottom: 10px;
     font-size: 1em;
     padding-right: 20px;
     color: black;
-    background-color: #e8e7e7;
+    background-color: #E8E7E7;
 }
 
 .form-top input::placeholder {
@@ -58,7 +57,6 @@
     color: #C40019;
     padding: 10px 30px;
     text-align: center;
-    text-decoration: none;
     font-size: 1.2em;
     margin: 25px auto;
     width: 45%;
@@ -67,7 +65,7 @@
 }
 
 .form-top .login-button:hover {
-    background-image: linear-gradient(#E7E8F0, #FEFEFF);
+    background-image: linear-gradient(#E8E7E7, #FEFEFF);
 }
 
 .form-top a {
@@ -78,13 +76,12 @@
 }
 
 .form-bottom {
-    background-color: #ae0117;
-    width: 33%;
-    min-width: 250px;
-    height: 30vh;
+    background-color: #AE0117;
+    width: 380px;
+    height: 220px;
     margin: 0 auto;
     border-radius: 0 0 10px 10px;
-    padding-top: 6vh;
+    padding-top: 45px;
 }
 
 .form-bottom button {
@@ -94,7 +91,7 @@
     width: 85%;
     margin: 0 auto;
     border-radius: 5px 5px;
-    height: 11vh;
+    height: 80px;
     color: black;
     font-size: 1.3em;
     font-weight: bold;
@@ -106,10 +103,10 @@
 
 .form-bottom img {
     display: inline-block;
-    width: 9%;
+    width: 40px;
     padding-left: 15px;
     vertical-align: middle;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
 }
 
 .form-bottom a {
