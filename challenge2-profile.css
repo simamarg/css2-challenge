@@ -15,8 +15,9 @@ body {
     background-color: rgba(91, 98, 118, 0.9);
     width: 500px;
     height: 300px;
-    margin: 200px auto 0 auto;
+    margin: 0 auto;
     padding: 30px;
+	top: 200px;
 }
 
 .half-card {
